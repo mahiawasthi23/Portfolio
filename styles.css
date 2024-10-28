@@ -232,7 +232,7 @@ h2{
 #contact-section {
     background-image: url("./images/Beige Minimal Free Zoom Virtual Background.png");
     padding: 40px;
-    margin: 40px;
+    margin: 40px 40px 0;
     text-align: center;
     box-shadow: 10px 0 10px rgb(126, 123, 123);
     border-radius: 10px;
@@ -325,6 +325,7 @@ footer {
     flex-direction: column;
     gap: 20px;
     position: fixed;
+    z-index: 10;
 }
 
 #meet-me img {
